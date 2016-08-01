@@ -1,0 +1,25 @@
+{
+  "name": "node-restful-api",
+  "version": "1.0.0",
+  "description": "A boilerplate to start building a RESTful API with node",
+  "main": "server.js",
+  "scripts": {
+      "start": "node server/server.js",
+      "dev": "nodemon server/server.js"
+  },
+  "author": "Lucas Martin",
+  "license": "ISC",
+  "dependencies": {
+      "express": "^4.14.0",
+      "jsonwebtoken": "^7.1.6",
+      "mongoose": "^4.5.5",
+  },
+  "devDependencies": {
+      "eslint": "^3.1.1",
+      "eslint-config-airbnb": "^9.0.1",
+      "eslint-plugin-import": "^1.11.1",
+      "eslint-plugin-react": "^5.2.2",
+      "morgan": "^1.7.0",
+      "nodemon": "^1.9.2"
+  }
+}
